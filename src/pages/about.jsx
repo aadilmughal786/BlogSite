@@ -1,36 +1,28 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 function About() {
   return (
-    <div className="w-full min-h-screen px-8 sm:px-16 py-8 bg-gradient-to-r from-rose-100 to-teal-100">
-      <h1 className="text-gray-800 py-4 text-3xl text-center underline decoration-sky-500 decoration-4	">
-        About me
+    <Layout>
+      <h1 className="py-4 text-6xl text-center font-DancingScript	text-teal-900/70">
+        About
       </h1>
-      <p className="pt-8 text-xl text-blue-900">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis,
-        sint velit neque incidunt nulla quaerat exercitationem sit facilis, nisi
-        repudiandae, quibusdam perspiciatis sunt magni similique officia animi
-        nobis maxime esse. Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Veritatis, sint velit neque incidunt nulla quaerat exercitationem
-        sit facilis, nisi repudiandae, quibusdam perspiciatis sunt magni
-        similique officia animi nobis maxime esse. Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Veritatis, sint velit neque incidunt nulla
-        quaerat exercitationem sit facilis, nisi repudiandae, quibusdam
-        perspiciatis sunt magni similique officia animi nobis maxime esse.
+      <p className="pt-8  text-gray-800 text-lg">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse
+        nisi, officiis soluta ipsa placeat ipsum hic numquam ea quibusdam
+        repellendus sequi ratione accusamus ut corporis veritatis alias voluptas
+        ad! Esse nam pariatur possimus accusamus cumque amet voluptates, odit
+        fugiat minima error repellat rem quidem iste repellendus in ducimus eum
+        optio placeat ipsam? Voluptas, totam quae. Magnam ullam soluta quod?
+        Obcaecati temporibus sequi quod id similique tempora rem omnis, neque
+        totam itaque maiores magni odio velit. Earum omnis cupiditate, enim
+        quibusdam facilis excepturi deleniti aspernatur amet, recusandae
+        veritatis sapiente quaerat! Necessitatibus qui dolores doloribus placeat
+        corporis, quas animi laborum quos distinctio culpa neque molestiae nisi
+        earum eveniet dolor quis? Voluptate nobis cumque cum minus, atque quas
+        impedit nam at natus!
       </p>
-      <p className="pt-8 text-xl text-amber-900">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis,
-        sint velit neque incidunt nulla quaerat exercitationem sit facilis, nisi
-        repudiandae, quibusdam perspiciatis sunt magni similique officia animi
-        nobis maxime esse. Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Veritatis, sint velit neque incidunt nulla quaerat exercitationem
-        sit facilis, nisi repudiandae, quibusdam perspiciatis sunt magni
-        similique officia animi nobis maxime esse. Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Veritatis, sint velit neque incidunt nulla
-        quaerat exercitationem sit facilis, nisi repudiandae, quibusdam
-        perspiciatis sunt magni similique officia animi nobis maxime esse.
-      </p>
-    </div>
+    </Layout>
   )
 }
 
