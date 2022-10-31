@@ -4,10 +4,10 @@ import Layout from "../components/Layout"
 function About() {
   return (
     <Layout>
-      <h1 className="py-4 text-6xl text-center font-DancingScript	text-teal-900/70">
+      <h1 className="py-4 text-3xl sm:text-4xl text-center font-DancingScript	text-teal-900/80">
         About
       </h1>
-      <p className="pt-8  text-gray-800 text-lg">
+      <p className="pt-8 lg:px-8  text-gray-800 text-xl tracking-wide">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse
         nisi, officiis soluta ipsa placeat ipsum hic numquam ea quibusdam
         repellendus sequi ratione accusamus ut corporis veritatis alias voluptas
