@@ -3,7 +3,7 @@ import React from "react"
 
 export default function NavBar() {
   return (
-    <nav className="sticky top-0 flex justify-between items-center backdrop-blur-3xl bg-white/40 py-4 px-8 sm:px-16 border-b border-teal-900/30 underline-offset-4 drop-shadow-sm">
+    <nav className="sticky top-0 flex justify-between items-center backdrop-blur-3xl bg-white/40 py-4 px-8 sm:px-16 border-b border-teal-900/30 underline-offset-4 drop-shadow-sm z-10">
       <Link to="/">
         <h1 className="bold text-3xl sm:text-4xl font-DancingScript text-indigo-900 hover:text-teal-900">
           Dev-Aadil

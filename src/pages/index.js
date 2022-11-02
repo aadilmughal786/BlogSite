@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Home({ data }) {
   return (
@@ -27,9 +28,10 @@ export default function Home({ data }) {
             View my resume
           </Link>
         </div>
-        <img
-          className="sm:w-4/5 md:w-3/5 lg:w-1/2 w-full"
-          src="./pics/home.png"
+        <StaticImage
+          className="sm:w-4/5 md:w-2/3 lg:w-1/2 w-full"
+          src="../opt_pics/home.png"
+          placeholder="blurred"
           alt="lovepik.com"
         />
       </div>
