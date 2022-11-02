@@ -7,23 +7,27 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    "gatsby-plugin-postcss",
+    "gatsby-plugin-postcss", //for tailwindcss
 
+    // To access markdown files
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `notes`,
+        name: `markdown`,
         path: `${__dirname}/src/Blogs/`,
       },
     },
+
+    // optimize image path
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `notes`,
+        name: `pics`,
         path: `${__dirname}/src/opt_pics/`,
       },
     },
 
+    // markdown converter
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -36,9 +40,9 @@ module.exports = {
       },
     },
 
-    // `gatsby-plugin-image`,
-    // `gatsby-plugin-sharp`,
-    // `gatsby-transformer-sharp`, // Needed for dynamic images
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
   ],
 
   siteMetadata: {
