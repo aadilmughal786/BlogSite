@@ -6,22 +6,9 @@ exports.createPages = async function ({ actions, graphql }) {
       allMarkdownRemark {
         edges {
           node {
-            id
             frontmatter {
-              title
               slug
-              stack
-              date(formatString: "DD/MM/YYYY")
-              thumb {
-                childImageSharp {
-                  gatsbyImageData(
-                    placeholder: BLURRED
-                    transformOptions: { cropFocus: CENTER }
-                  )
-                }
-              }
             }
-            html
           }
         }
       }
